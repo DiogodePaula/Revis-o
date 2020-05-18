@@ -23,16 +23,16 @@ function adicionar(){
     lista.push(pessoa);
     
 }        
-
-function quantidadeSexo(){
+ 
+function quantidadeSexo(){ 
   
-    for(let pessoa of lista){
+    for(let pessoa of lista){ 
         if(pessoa.sexo === "M"){
             homens.push(pessoa);
         } else {
-            mulheres.push(pessoa);
-        }
-    }
+            mulheres.push(pessoa); 
+        } 
+    } 
     document.getElementById("lblMasculino").innerHTML = `Existem ${homens.lenght} 
     homens nesta lista.`;
     document.getElementById("lblMasculino").innerHTML = `Existem ${mulheres.lenght} 
